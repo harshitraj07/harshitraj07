@@ -1,0 +1,11 @@
+/*
+variables->var,let,const
+datatypes->
+primitive->string,number,bigint,
+non-primite->object,date,array
+operators-> arithmatic,assignment,relational,logical,conditional
+for of - applied on array value
+for in - applied on index of the array
+*/
+
+

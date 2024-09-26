@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <style>
+      body{
+        
+        background-color: rgb(78, 164, 198);
+        justify-content: center;
+        text-align: center;
+       
+        
+      }
+        header{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xx-large;
+            color: brown;
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            
+          animation: change_color 5s infinite;
+            
+           
+        }
+        nav a{
+        margin: 20px;
+        text-align: center;
+        color: brown;
+        font-family: serif;
+        
+        text-decoration: none;
+       
+
+        
+
+      }
+        nav {
+          
+            display: flex;
+            justify-content:space-around;
+            background-color: rgb(100, 152, 197);
+            
+        }
+        .img img{
+           height: 6rem;
+           width: 9rem;
+
+            border: 2px;
+            border-radius: 60%;
+            box-shadow: 5px 2px 5px;
+            
+            
+            
+            
+            
+        }
+        .f1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: x-large;
+        }
+        @keyframes change_color {
+            from{
+                background-color: aqua;
+            }
+            to{
+                background-color: rgb(5, 41, 95);
+            }
+            
+        }
+     
+         
+        footer:hover{
+            
+            background-color: rgb(10, 102, 141);
+        }
+        footer p{
+           
+            background-color: aliceblue;
+            text-decoration: none;
+            justify-content: flex-end;
+        }
+        .form{
+            padding: 10px;
+            margin: 7px;
+            border: 2px solid black;
+            height: 115px;
+            width: 215px;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>Portfolio</header>
+    
+    
+       
+        <nav>
+            <div class="img">
+                <img src="img1.jpeg" alt="">
+            </div>
+            
+                 <a href="#">Home</a>
+                
+                    <a href="about.html">About</a>
+                
+                <a href="contact">Contact</a>
+            
+        </nav>
+        
+    
+    <div class="f1">
+       <p><h1>Hi I'm Harshit</h1></p>
+    </div>
+   <table>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat sed corporis suscipit impedit eius ullam perferendis alias in reiciendis quos, molestiae quidem dolorum vero sint nisi, amet aut, voluptas temporibus!</p>
+    <tr>
+        <thead>
+            <th>College Name</th>
+            <th>Course</th>
+            <th>Session</th>
+        </thead>
+       
+    </tr>
+    <tr>
+        <td>World college</td>
+        
+        <td>B.Tech</td>
+        
+        <td>2022-26</td>
+    </tr>
+   </table>
+   
+   <form action="" class="form">
+    <label >Name: <input type="text"> </label><br>
+    <label >Email: <input type="text"> </label>
+    <br>
+    <label >gender: <span>male <input type="radio" value="male" name="gender"></span> <span>female: <input type="radio" value="female" name="gender"> </span></label>
+  <br><label  >
+    Choose your state: 
+    <select name="choose" id="choose">
+        <option value="#"></option>
+    <option value="Bihar">Bihar</option>
+    <option value="Delhi">Delhi</option>
+</select>
+  </label> <br>
+  <button>Submit</button>
+</form>
+
+<footer>
+    <p><a href="www.email.com">Email</a></p>
+   </footer>
+
+</body>
+</html>

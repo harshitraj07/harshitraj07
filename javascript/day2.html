@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+   
+   <form >
+     <label for="email"  >Email: <input type="text" id="email"></label>
+    <br>
+    <label for="password" >password: <input type="text" id="password"></label>
+    <button>Submit</button>
+   </form>
+    
+</body>
+</html>
+<script>
+    function handleclick (event) {
+        let val = event.target.value
+        document.getElementById("demo").innerHTML + val 
+    }
+     let email = document.getElementById("email").value
+      let password = document.getElementById('password').value
+      console.log(email,password)
+    
+    // function handlesubmit(event) {
+       
+    //     let email =getElementById('email').value
+    //     let password = getElementById('password').value
+    //     if (email =' ' && password!= ' ') {
+    //         alert(email,password)
+    //         event.presentDefault()
+            
+    //     }
+    //     else{
+    //         alert('data is not there')
+    //     }
+        
+    // }
+</script>

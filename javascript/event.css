@@ -1,0 +1,11 @@
+.name{
+    border: solid lightblue;
+    border-radius: 20px;
+    background-color: rgb(108, 104, 108);
+}
+.name p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}

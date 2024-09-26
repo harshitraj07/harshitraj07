@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.form textarea{
+    display: flex;
+    justify-content: center;
+   
+    border: solid lightblue;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px 0px lightblue;
+    
+    
+}
+.post{
+display: flex;
+justify-content: center;
+
+}
